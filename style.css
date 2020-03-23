@@ -5,6 +5,145 @@ html {
     font-size: 100%;
 }
 body {
-    background-color: hsl(240, 78%, 98%);
+    background-color: hsl(74, 73%, 88%);
+    margin: 0 auto;
     font-family: 'Montserrat' , sans-serif;
+}
+.price-background {
+    background-image: url(img/bg-top.svg), url(img/bg-bottom.svg);
+    background-position: right -180px top -30px, left 0px , bottom 0px;
+    background-repeat: no-repeat, no-repeat;
+}
+.price-warp{
+    padding: 60px 0px 49px 0px;
+    min-height: 100vh;
+    margin: 0 auto;
+}
+
+/*------------- Price Top ----------------------*/
+
+.price-top{
+    margin: 0 0 55px 0;
+}
+
+.price-top h1{
+    font-size: 2rem;
+    font-weight: 700;
+    color: hsl(233, 13%, 49%);
+    text-align: center;
+    line-height: 70px;
+    margin: 0px;
+}
+.account-type{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0px 0px 0px;
+}
+.account-type p{
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 30px;
+    margin: 0px;
+    color: hsl(234, 14%, 74%);
+}
+/*------- switch account -------*/
+
+.switch{
+    position: relative;
+    display: inline-block;
+    width: 56px;
+    height: 32px;
+    margin: 0px 24px;
+    cursor: pointer;
+
+}
+/* Hide default HTML checkbox */
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+
+   /* The slider */
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: hsl(96, 72%, 59%);
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 24px;
+    width: 24px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+
+  input:checked + .slider {
+    background-image: linear-gradient(-90deg, hsl(86, 87%, 27%), hsl(120, 81%, 58%) );
+  }
+
+  input:focus + .slider {
+    box-shadow: 0 0 2px hsl(232, 13%, 33%);
+  }
+
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  /* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+  /*---------------------------------*/
+
+  .price-bottom {
+      justify-content: center;
+  }
+  .cards{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+  }
+  .card-white{
+    color: hsl(117, 13%, 33%);
+    width: 87.500vw;
+    height: 459px;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 36px 31px 38px 31px;
+    margin: 10px 0 10px 0px;
+    box-shadow: 0px 4px 30px -4px rgba(163, 168, 240,0.25);;
+    border-radius: 15px;
+  }
+  .card-green {
+    color: white;
+    width: 87.500vw;
+    height: 498px;
+    background-image: linear-gradient(hsl(103, 72%, 79%), hsl(115, 79%, 60%));
+    box-sizing: border-box;
+    padding: 36px 31px 38px 31px;
+    margin: 10px 0 10px 0px;
+    box-shadow: 0px 4px 30px -4px rgba(163, 168, 240,0.25);;
+    border-radius: 15px;
 }
