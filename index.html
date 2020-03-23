@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-  <link rel="stylesheet" href="style.css" type="text/css">
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
-  <title>Green Wild School</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+  <title> Wild Green School</title>
 
   
 </head>
@@ -32,7 +31,7 @@
                 <div class="card-1 card-white">
                   <div class="tarif-section">
                     <h1>Basic</h1>
-                    <p class="euro-indv">&euro;5000</p><p hidden class="euro-group">&euro;4000</p>
+                    <p class="euro indv">&euro;5000</p><p hidden class="euro group">&euro;4000</p>
                   </div>
                   <div class="text-section">
                     <p>qualité de enseignement</p>
@@ -49,11 +48,11 @@
               
               <div class="card-2 card-green">
                   <div class="tarif-section">
-                    <h1>10% discount</h1>
-                    <p class="euro-indv">&euro;4500</p><p hidden class="euro-group">&euro;3600</p>
+                    <h1>20% discount</h1>
+                    <p class="euro indv">&euro;4000</p><p hidden class="euro group">&euro;3200</p>
                   </div>
                   <div class="text-section">
-                    <p>payer d'avance avant un mois à partir du formation</p>
+                    <p>payer d'avance avant deux mois à partir du formation</p>
                     
                   </div>
                   
@@ -64,11 +63,11 @@
                 
               <div class="card-3 card-white">
                 <div class="tarif-section">
-                  <h1>20% discount</h1>
-                  <p class="euro-indv">&euro;4000</p><p hidden class="euro-group">&euro;3200</p>
+                  <h1>10% discount</h1>
+                  <p class="euro indv">&euro;4500</p><p hidden class="euro group">&euro;3600</p>
                 </div>
                 <div class="text-section">
-                  <p>payer d'avance avant deux mois à partir du formation</p>
+                  <p>payer d'avance avant un mois à partir du formation</p>
                   
                 </div>
                 
@@ -87,10 +86,10 @@
     function myFunction(){
 
                 if ($('input[name=checkname]').is(':checked')){
-                $(".Group").show() && $(".Individuel").hide();
+                $(".group").show() && $(".indv").hide();
                 }
                 else {
-                $(".Group").hide() && $(".Individuel").show();
+                $(".group").hide() && $(".indv").show();
             }
     }
 
