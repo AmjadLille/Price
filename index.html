@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
   <link rel="stylesheet" href="style.css" type="text/css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
   <title>Green Wild School</title>
 
   
@@ -22,7 +22,7 @@
               <input type="checkbox" name=checkname id="toggle-check" onclick="myFunction()">
               <span class="slider round"></span>
             </label>
-            <p>Group( 5 Per et plus )</p>
+            <p>Group</p>
           </div>
           
       </div>
@@ -40,7 +40,6 @@
                     <p>articulation entre la théorie et la pratique</p>
                     <hr>
                     <p>suivi personnalisé</p>
-                    <hr>
                     
                   </div>
                   <button class=button-gradient value="Learn More" onclick="window.location.href = '#';">
@@ -49,13 +48,13 @@
               </div> 
               
               <div class="card-2 card-green">
-                  <div>
+                  <div class="tarif-section">
                     <h1>10% discount</h1>
                     <p class="euro-indv">&euro;4500</p><p hidden class="euro-group">&euro;3600</p>
                   </div>
                   <div class="text-section">
-                    <a>payer d'avance avant un mois à partir du formation</a>
-                    <hr>
+                    <p>payer d'avance avant un mois à partir du formation</p>
+                    
                   </div>
                   
                   <button class=button-gradient value="Learn More" onclick="window.location.href = '#';">
@@ -69,8 +68,8 @@
                   <p class="euro-indv">&euro;4000</p><p hidden class="euro-group">&euro;3200</p>
                 </div>
                 <div class="text-section">
-                  <a>payer d'avance avant deux mois à partir du formation</a>
-                  <hr>
+                  <p>payer d'avance avant deux mois à partir du formation</p>
+                  
                 </div>
                 
                 <button class=button-gradient value="Learn More" onclick="window.location.href = '#';">
@@ -84,7 +83,18 @@
     </div>
 
   </div>
-  
+  <script>
+    function myFunction(){
+
+                if ($('input[name=checkname]').is(':checked')){
+                $(".Group").show() && $(".Individuel").hide();
+                }
+                else {
+                $(".Group").hide() && $(".Individuel").show();
+            }
+    }
+
+</script>
     
   
   

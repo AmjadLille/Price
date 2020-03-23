@@ -147,3 +147,132 @@ body {
     box-shadow: 0px 4px 30px -4px rgba(163, 168, 240,0.25);;
     border-radius: 15px;
 }
+.tarif-section h1{
+    font-size: 1.1rem;
+    font-weight: 700;
+    line-height: 28px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+  }
+
+  .tarif-section p{
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 71px;
+    letter-spacing: -2.64px;
+    margin-block-start: 20px;
+    margin-block-end: 0px;
+  }
+  
+  .text-section p{
+    font-size: .92rem;
+    font-weight: 700;
+    line-height: 28px;
+    margin-block-start: 12px;
+    margin-block-end: 12px;
+  }
+
+  hr{
+    background-color: #CBCBCB;
+    color:#CBCBCB;
+    opacity: 40%;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    padding:0px;
+    height: 1.3px;
+    border: none;
+  }
+
+  .button-gradient{
+    text-transform: uppercase;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 0.81rem;
+    letter-spacing: 2px;
+    line-height: 18px;
+    color: white;
+    background: linear-gradient( 90deg, hsl(143, 77%, 71%), hsl(125, 89%, 11%));
+    width: 50%;
+    height: 44px;
+    margin: 32px 0px 0px 0px;
+    border: 0;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+  
+    cursor: pointer;
+  }
+
+  .button-gradient:hover:active{
+    background: transparent;
+    color: hsl(125, 89%, 11%);
+    outline-color: hsl(125, 89%, 11%);
+  }
+
+
+
+
+  @media (min-width:1280px){
+
+    .price-background{
+      background-position: right 0px top -10px, left 0px bottom 0px;
+      background-repeat: no-repeat, no-repeat;
+    }
+  
+    .price-wrap{
+      padding: 60px 0px 0px 0px;
+    }
+  
+    .card-white{
+      width: 27.306vw
+      /*width: 27.344vw;*/
+    }
+  
+    .card-green{
+      width: 27.306vw
+      /*width: 27.344vw;*/
+    }
+  
+    .tarif-section p{
+      font-size: 4.5rem;
+    }
+  }
+
+  @media (min-width:961px)
+{
+
+  .card-white{
+    width: 29.297vw;
+  }
+
+  .card-green{
+    width: 29.297vw;
+    padding: 59px 31px 54px 31px;
+  }
+
+  .tarif-section p{
+    font-size: 4rem;
+  }
+  
+
+}
+
+@media (min-width:768px)
+{
+
+  .card-white{
+    width: 30vw;
+  }
+
+  .card-green{
+    width: 30vw;
+  }
+
+  .tarif-section p{
+    font-size: 3rem;
+  }
+
+}
+
+
+
