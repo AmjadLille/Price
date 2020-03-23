@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-  <link rel = "stylesheet" type = "text/css" href = "Style.css" />
+  <link rel="stylesheet" href="style.css" type="text/css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Green Wild School</title>
@@ -11,11 +11,22 @@
   
 </head>
 <body>
-  <div>
-    <a>Tarif</a>
-    <a>Individuel</a>
-    <a>Group(5 Per et plus)</a>
-  </div>
+  
+    <div class="price-top">
+      
+      <h1>Tarif</h1>
+      <div class="account-type">
+        <p>Individuel</p>
+        <label class="switch">
+          <input type="checkbox" name=checkname id="toggle-check" onclick="myFunction()">
+          <span class="slider round"></span>
+        </label>
+        <p>Group( 5 Per et plus )</p>
+      </div>
+      
+    </div>
+    
+  
     
   <div>
     <a>Basic</a>
