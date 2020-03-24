@@ -5,7 +5,7 @@ html {
     font-size: 100%;
 }
 body {
-    background-color: hsl(74, 73%, 88%);
+    background-color: hsl(75, 25%, 94%);
     margin: 0 auto;
     font-family: 'Montserrat' , sans-serif;
 }
@@ -27,7 +27,7 @@ body {
 }
 
 .price-top h1{
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: 700;
     color: hsl(233, 13%, 49%);
     text-align: center;
@@ -41,11 +41,11 @@ body {
     margin: 20px 0px 0px 0px;
 }
 .account-type p{
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: 700;
     line-height: 30px;
     margin: 0px;
-    color: hsl(234, 14%, 74%);
+    color: hsl(233, 13%, 49%);
 }
 /*------- switch account -------*/
 
@@ -129,7 +129,7 @@ body {
     color: hsl(117, 13%, 33%);
     width: 87.500vw;
     height: 459px;
-    background-color: white;
+    background-color: rgb(169, 236, 148);
     box-sizing: border-box;
     padding: 36px 31px 38px 31px;
     margin: 10px 0 10px 0px;
@@ -140,7 +140,7 @@ body {
     color: white;
     width: 87.500vw;
     height: 498px;
-    background-image: linear-gradient(hsl(103, 72%, 79%), hsl(115, 79%, 60%));
+    background-image: linear-gradient( hsl(115, 94%, 30%), hsl(103, 72%, 79%));
     box-sizing: border-box;
     padding: 36px 31px 38px 31px;
     margin: 10px 0 10px 0px;
@@ -148,7 +148,7 @@ body {
     border-radius: 15px;
 }
 .tarif-section h1{
-    font-size: 1.1rem;
+    font-size: 2rem;
     font-weight: 700;
     line-height: 28px;
     margin-block-start: 0px;
@@ -165,7 +165,7 @@ body {
   }
   
   .text-section p{
-    font-size: .92rem;
+    font-size: 1rem;
     font-weight: 700;
     line-height: 28px;
     margin-block-start: 12px;
@@ -194,7 +194,7 @@ body {
     background: linear-gradient( 90deg, hsl(143, 77%, 71%), hsl(125, 89%, 11%));
     width: 50%;
     height: 44px;
-    margin: 32px 0px 0px 0px;
+    margin: 110px 0px 0px 0px;
     border: 0;
     border-radius: 5px;
     -webkit-border-radius: 5px;
