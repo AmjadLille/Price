@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css" type="text/css">
-    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    
   <title> Wild Green School</title>
 
   
@@ -80,17 +80,18 @@
 
   </div>
   <script>
-    document.getElementById('toggle-checkbox').oninput = togglePrices
-    document.body.onload = togglePrices
+    
+        document.getElementById('toggle-checkbox').oninput = togglePrices
+        document.body.onload = togglePrices;
 
-    function togglePrices() {
-      Array.from(document.getElementsByClassName('indv')).forEach(element => {
-        element.style.display = this.checked ? 'none' : 'inline'
-      })
-      Array.from(document.getElementsByClassName('group')).forEach(element => {
-        element.style.display = this.checked ? 'inline' : 'none'
-      })
-    }
+        function togglePrices() {
+          Array.from(document.getElementsByClassName('indv')).forEach(element => {
+            element.style.display = this.checked ? 'none' : 'inline'
+          })
+          Array.from(document.getElementsByClassName('group')).forEach(element => {
+            element.style.display = this.checked ? 'inline' : 'none'
+          })
+        }
 
 </script>
     
